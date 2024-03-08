@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nihao:
+    build: .
+    image: nihao
+    tty: True
+    network_mode: bridge
+    container_name: nihao
